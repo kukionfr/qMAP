@@ -1,0 +1,6 @@
+outs:
+- md5: 50671ce57d7d5b1c178488d87d3037bb.dir
+  size: 204801996
+  nfiles: 165
+  hash: md5
+  path: monuseg

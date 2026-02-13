@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Manuscript (private, not for public repo)
+previously_revised_manuscript/
+
+# Raw dataset downloads (before preparation)
+input_data/nuinsseg_raw/
+input_data/monuseg_raw/
+input_data/cryonuseg_raw/
+
+# Model weights and cloned repos (too large, downloadable)
+CellViT/
+hover_net/
+*.pth
+*.h5
+
+# Benchmark predictions and intermediate outputs (reproducible)
+output/benchmark/*/predictions/
+output/benchmark/*/*/predictions/
+output/benchmark/*/*.dat
+
+# IDE / system
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Claude Code working files
+.claude/

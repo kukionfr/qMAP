@@ -1,0 +1,6 @@
+outs:
+- md5: 171df23a43a510ddd0359cfed1e75317.dir
+  size: 44516834
+  nfiles: 61
+  hash: md5
+  path: cryonuseg

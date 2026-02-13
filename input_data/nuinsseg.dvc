@@ -1,0 +1,6 @@
+outs:
+- md5: 75e459b57827a63bd68b6b8f62ffef6f.dir
+  size: 1796139399
+  nfiles: 48399
+  hash: md5
+  path: nuinsseg

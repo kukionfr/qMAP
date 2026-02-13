@@ -1,0 +1,83 @@
+{
+  "generated": "2026-02-08",
+  "models": ["HoVerNet (hovernet_fast-pannuke)", "StarDist (2D_versatile_he)", "CellViT-SAM-H"],
+  "datasets": ["NuInsSeg", "MoNuSeg", "CryoNuSeg"],
+  "results": {
+    "NuInsSeg": {
+      "n_images": 665,
+      "HoVerNet": {
+        "Dice": {"mean": 0.497, "std": 0.245},
+        "AJI": {"mean": 0.313, "std": 0.179},
+        "PQ": {"mean": 0.275, "std": 0.162},
+        "DQ": {"mean": 0.369, "std": 0.205},
+        "SQ": {"mean": 0.668, "std": 0.217}
+      },
+      "StarDist": {
+        "Dice": {"mean": 0.452, "std": 0.236},
+        "AJI": {"mean": 0.284, "std": 0.173},
+        "PQ": {"mean": 0.278, "std": 0.159},
+        "DQ": {"mean": 0.384, "std": 0.212},
+        "SQ": {"mean": 0.670, "std": 0.185}
+      },
+      "CellViT": {
+        "Dice": {"mean": 0.659, "std": 0.258},
+        "AJI": {"mean": 0.458, "std": 0.207},
+        "PQ": {"mean": 0.403, "std": 0.192},
+        "DQ": {"mean": 0.534, "std": 0.242},
+        "SQ": {"mean": 0.685, "std": 0.211}
+      }
+    },
+    "MoNuSeg": {
+      "n_images": 32,
+      "note": "32 TCGA images (1000x1000) only. 50 additional 256x256 patches excluded due to asymmetric padding requirements across models.",
+      "HoVerNet": {
+        "n_images": 32,
+        "Dice": {"mean": 0.790, "std": 0.101},
+        "AJI": {"mean": 0.442, "std": 0.131},
+        "PQ": {"mean": 0.410, "std": 0.130},
+        "DQ": {"mean": 0.563, "std": 0.171},
+        "SQ": {"mean": 0.722, "std": 0.038}
+      },
+      "StarDist": {
+        "n_images": 32,
+        "Dice": {"mean": 0.753, "std": 0.102},
+        "AJI": {"mean": 0.425, "std": 0.131},
+        "PQ": {"mean": 0.411, "std": 0.132},
+        "DQ": {"mean": 0.564, "std": 0.173},
+        "SQ": {"mean": 0.722, "std": 0.037}
+      },
+      "CellViT": {
+        "n_images": 32,
+        "Dice": {"mean": 0.803, "std": 0.103},
+        "AJI": {"mean": 0.448, "std": 0.137},
+        "PQ": {"mean": 0.426, "std": 0.134},
+        "DQ": {"mean": 0.581, "std": 0.176},
+        "SQ": {"mean": 0.727, "std": 0.041}
+      }
+    },
+    "CryoNuSeg": {
+      "n_images": 30,
+      "HoVerNet": {
+        "Dice": {"mean": 0.777, "std": 0.073},
+        "AJI": {"mean": 0.524, "std": 0.097},
+        "PQ": {"mean": 0.424, "std": 0.104},
+        "DQ": {"mean": 0.551, "std": 0.122},
+        "SQ": {"mean": 0.764, "std": 0.024}
+      },
+      "StarDist": {
+        "Dice": {"mean": 0.733, "std": 0.065},
+        "AJI": {"mean": 0.501, "std": 0.088},
+        "PQ": {"mean": 0.416, "std": 0.101},
+        "DQ": {"mean": 0.547, "std": 0.120},
+        "SQ": {"mean": 0.757, "std": 0.021}
+      },
+      "CellViT": {
+        "Dice": {"mean": 0.792, "std": 0.073},
+        "AJI": {"mean": 0.546, "std": 0.103},
+        "PQ": {"mean": 0.453, "std": 0.112},
+        "DQ": {"mean": 0.590, "std": 0.131},
+        "SQ": {"mean": 0.764, "std": 0.025}
+      }
+    }
+  }
+}
